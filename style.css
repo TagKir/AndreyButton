@@ -1,0 +1,37 @@
+/* сделал весь html, дальше css дальше js*/
+html {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+}
+button {
+  width: 10rem;
+  height: 5rem;
+  margin: 20px 0;
+  background-color: lightgreen;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 0px green;
+  border-bottom: 7px solid green;
+}
+button:hover {
+  background-color: rgb(103, 215, 43);
+  border-bottom: 3px solid green;
+  transition: all 0.05s;
+}
+
+button:active {
+  background-color: rgb(67, 178, 65);
+  transition: all 0.03s ease-in;
+  transform: translateY(5px);
+  border-bottom-width: 2px;
+  box-shadow: none;
+}
+#pushme {
+  font-size: 50px;
+}
